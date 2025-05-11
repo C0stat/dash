@@ -32,7 +32,7 @@ export default function InvestmentDashboard() {
   const [aporteSazonal, setAporteSazonal] = useState(8000);
   const [mesSazonal, setMesSazonal] = useState(4);
   const [vendasMensais, setVendasMensais] = useState(40);
-  const [novosInvestidoresMensaisN1, setNovosInvestidoresMensaisN1] = useState(5);
+  const [novosInvestidoresMensaisN1, setNovosInvestidoresMensaisN1] = useState(0);
   const [nMeses, setNMeses] = useState(12);
   const [filtroRange, setFiltroRange] = useState<[number, number]>([1, 12]);
   const [n1, setN1] = useState(5); // Investidores já existentes
