@@ -1,0 +1,9 @@
+# Pastas a ignorar
+node_modules
+dist
+build
+
+# Configurações do sistema
+.DS_Store
+.env
+*.log
